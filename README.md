@@ -61,12 +61,4 @@ This project was created as a frontend practice project to improve UI developmen
 ---
 
 ## Author
-Greeshma Frontend Developer | CSE (AI & ML) Student GitHub: https://github.com/greeshmagali
-
-
-
-
-
-
-## Author
 Greeshma web Developer | CSE (AI & ML) Student GitHub: https://github.com/greeshmagali
