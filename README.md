@@ -57,3 +57,8 @@ This project focuses on creating clean layouts, responsive design, and maintaini
 ## 📌 Purpose of the Project
 
 This project was created as a frontend practice project to improve UI development skills and gain hands-on experience by recreating a real-world website design.
+
+---
+
+## Author
+Greeshma web Developer | CSE (AI & ML) Student GitHub: https://github.com/greeshmagali
