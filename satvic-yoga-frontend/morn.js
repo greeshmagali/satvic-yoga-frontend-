@@ -1,0 +1,83 @@
+var eventDate = new Date("Feb 16, 2026 06:00:00");
+
+  setInterval(function () {
+    var now = new Date();
+    var timeLeft = eventDate.getTime() - now.getTime();
+
+    var days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
+
+    document.getElementById("days").textContent = days;
+    document.getElementById("hours").textContent = hours;
+    document.getElementById("min").textContent = minutes;
+    document.getElementById("sec").textContent = seconds;
+
+    if (timeLeft < 0) {
+      document.querySelector(".countdown-box").innerHTML = "Workshop Started!";
+    }
+  }, 1000);
+
+  function showWeek(week) {
+    const week1 = document.getElementById("week1");
+    const week2 = document.getElementById("week2");
+    const week3 = document.getElementById("week3");
+
+    const tabs = document.querySelectorAll(".week-tab");
+    tabs.forEach(tab => tab.classList.remove("active"));
+    tabs[week - 1].classList.add("active");
+
+    if (week === 1) {
+        week1.classList.remove("hidden");
+        week2.classList.add("hidden");
+        week3.classList.add("hidden");
+    } else if(week==2) {
+        week2.classList.remove("hidden");
+        week1.classList.add("hidden");
+        week3.classList.add("hidden");
+    }else{
+         week3.classList.remove("hidden");
+        week2.classList.add("hidden");
+        week1.classList.add("hidden");
+    }
+}
+function showPage(pageNumber) {
+    const review1 = document.getElementById("review1");
+    const review2 = document.getElementById("review2");
+    const review3 = document.getElementById("review3");
+
+    if (pageNumber === 1) {
+      review1.hidden = false;
+      review2.hidden = true;
+      review3.hidden = true; 
+    } else if (pageNumber === 2) {
+      review1.hidden = true; 
+      review2.hidden = false;
+      review3.hidden = true;  
+    }else if(pageNumber === 3){
+       review2.hidden = true;
+       review1.hidden = true;
+       review3.hidden = false;   
+    }
+  }
+  function toggleFAQ(element) {
+    let answer = element.querySelector(".answer");
+    let icon = element.querySelector("svg");
+
+    if (answer.style.display === "block") {
+        answer.style.display = "none";
+        icon.style.transform = "rotate(0deg)";
+    } else {
+        answer.style.display = "block";
+        icon.style.transform = "rotate(180deg)";
+    }
+}
+const amountButtons = document.querySelectorAll('.amount-btn');
+
+amountButtons.forEach(button => {
+    button.addEventListener('click', () => {
+        amountButtons.forEach(btn => btn.classList.remove('active'));
+        button.classList.add('active');
+    });
+});

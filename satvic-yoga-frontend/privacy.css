@@ -1,0 +1,156 @@
+.first-container {
+    background-size: cover;
+    width: 100%;
+    font-family: "Poppins", "Sans-Serif";
+    margin: 0;
+    padding: 0;
+}
+
+.contact-btn {
+    background-color: white;
+    color: #608b73;
+    border: none;
+    padding: 8px 18px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.contact-btn:hover {
+    background-color: #c0e3dc;
+    color: #608b73;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    position: sticky;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #618780;
+    background-size: cover;
+    padding: 15px 40px;
+    box-shadow: 0 2px 6px rgba(o, o, o, 0.1);
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: 0.3s;
+
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.nav-links li a:hover {
+    color: #f19a0f;
+}
+.policy-section{
+    display:flex;
+    flex-direction: column;
+    text-align:left;
+    width:60%;
+    margin-left:350px;
+}
+.policy-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+  }
+
+  .policy-table th {
+    background: #f5f5f5;
+    text-align: center;
+    padding: 12px;
+    font-weight: bold;
+    border: 1px solid #ddd;
+  }
+
+  .policy-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align:center;
+  }
+
+  .section-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 35px 0 10px;
+  }
+  .satvic-footer {
+    background-color: #5f857c;
+    color: white;
+    padding-top: 120px;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 0 20px;
+}
+
+.footer-logo {
+    width: 160px;
+    margin-bottom: 15px;
+}
+
+.social-icons img {
+    width: 34px;
+    margin-right: 12px;
+}
+
+/* Links */
+.footer-links {
+    display: flex;
+    gap: 40px;
+}
+
+.footer-links h4,
+.footer-newsletter h4 {
+    margin-bottom: 12px;
+    font-size: 18px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-links ul {
+    padding: 0;
+    list-style: none;
+}
+
+.footer-links li {
+    margin-bottom: 6px;
+}
+
+/* Large Screens */
+@media (min-width: 722px) {
+    .footer-content {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 140px;
+    }
+
+    .footer-links {
+        gap: 80px;
+    }
+
+    .footer-newsletter {
+        width: 290px;
+    }
+}

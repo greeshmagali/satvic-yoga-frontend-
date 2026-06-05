@@ -1,0 +1,467 @@
+.first-container {
+    background-size: cover;
+    width: 100%;
+    font-family: "Poppins", "Sans-Serif";
+    margin: 0;
+    padding: 0;
+}
+
+.contact-btn {
+    background-color: white;
+    color: #608b73;
+    border: none;
+    padding: 8px 18px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.contact-btn:hover {
+    background-color: #c0e3dc;
+    color:#608b73;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    position: sticky;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #618780;
+    background-size: cover;
+    padding: 15px 40px;
+    box-shadow: 0 2px 6px rgba(o, o, o, 0.1);
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: 0.3s;
+
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.nav-links li a:hover {
+    color: #f19a0f;
+}
+.workshop-section {
+    text-align: center;
+    padding: 20px;
+    background-color: #e0f2f1;
+}
+
+.workshop-text-container {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+.whatsapp-btn{
+   border-radius:10px;
+   border-width:0px;
+   padding:10px;
+   background-color: white;
+   margin-bottom:10px;
+
+}
+.whatsapp-btn:hover{
+    text-decoration: none;
+}
+.whatsapp-btn h7:hover{
+    color:#508d81;
+    
+}
+.whatsapp-btn p:hover{
+   color:black;
+}
+.whatsapp-btn h7{
+    color:#508d81;
+    margin-left:3px;
+}
+.whatsapp-btn p{
+    font-size:15px;
+    margin-top:8px;
+    color:black;
+}
+.workshop-title {
+    color: #508d81;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.workshop-subtitle {
+    color: #5e978b;
+    font-size: 18px;
+}
+
+.register-btn {
+    background-color: #719790;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    margin: 20px 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.register-btn:hover {
+    opacity: 0.9;
+    text-decoration: none;
+    color:white;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto 20px auto;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.video-container img {
+    width: 100%;
+    display: block;
+    border-radius: 12px;
+}
+
+
+@media (min-width: 768px) {
+    .workshop-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        flex-direction: row;
+        gap: 40px;
+    }
+    .btns{
+        display:flex;
+        flex-direction: column;
+    }
+}
+.questions-container {
+    background-color: #f6f1e7;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.questions-card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.question {
+    border-radius: 10px;
+    border-width: 0px;
+    padding: 10px;
+    width: 100%;
+    cursor:pointer;
+    color: black;
+    background-color: white;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.answer {
+    display: none;
+    /* hidden first */
+    color: #444;
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+svg {
+    transition: transform 0.3s ease;
+    transform: rotate(0deg);
+    /* arrow points down first */
+}
+
+@media (min-width:729px) {
+
+    .questions-card {
+        width: 60%;
+        text-align: center;
+        margin-left: 300px;
+    }
+
+}
+.satvic-app-sec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    background-color: #ffffff;
+}
+
+.satvic-app-content h2 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.satvic-app-content p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 25px;
+}
+
+.store-buttons a {
+    width: 170px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.store-buttons img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+/* Phone Images */
+.satvic-app-image img {
+    width: 90%;
+    max-width: 400px;
+    margin-top: 30px;
+    border-radius: 12px;
+}
+
+/* Large Devices */
+@media (min-width: 992px) {
+    .satvic-app-sec {
+        flex-direction: row;
+        justify-content: center;
+        padding: 60px 100px;
+        text-align: left;
+    }
+
+    .satvic-app-content {
+        max-width: 420px;
+    }
+
+    .satvic-app-image img {
+        width: 430px;
+        margin-top: 0;
+        margin-left:50px;
+    }
+
+    .store-buttons {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+.satvic-footer {
+    background-color: #5f857c;
+    color: white;
+    padding-top: 120px;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 0 20px;
+}
+
+.footer-logo {
+    width: 160px;
+    margin-bottom: 15px;
+}
+
+.social-icons img {
+    width: 34px;
+    margin-right: 12px;
+}
+
+/* Links */
+.footer-links {
+    display: flex;
+    gap: 40px;
+}
+
+.footer-links h4,
+.footer-newsletter h4 {
+    margin-bottom: 12px;
+    font-size: 18px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-links ul {
+    padding: 0;
+    list-style: none;
+}
+
+.footer-links li {
+    margin-bottom: 6px;
+}
+
+/* Newsletter */
+.footer-newsletter input,
+.footer-newsletter select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border-radius: 25px;
+    border: none;
+    font-size: 14px;
+}
+
+.email-subscribe {
+    display: flex;
+    gap: 10px;
+}
+
+.email-subscribe button {
+    background-color: white;
+    color: #5f857c;
+    padding: 10px 22px;
+    border-radius: 25px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 13px;
+    opacity: 0.85;
+}
+
+/* Large Screens */
+@media (min-width: 722px) {
+    .footer-content {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 140px;
+    }
+
+    .footer-links {
+        gap: 80px;
+    }
+
+    .footer-newsletter {
+        width: 290px;
+    }
+}
+
+nav {
+  position: relative;
+  z-index: 9999999 !important;   /* Navbar stays ABOVE everything */
+}
+
+.vertical-dropdown-box {
+  position: absolute;
+  z-index: 99999999 !important;  /* Dropdown above all sections */
+}
+
+.vertical-box {
+  position: relative;
+  z-index: 999999;   /* FULL TOP */
+}
+
+
+.vertical-dropdown-box {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 350px;
+  padding: 10px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+  display: none;
+  flex-direction: column;
+  gap: 18px;
+
+  z-index: 999999;     /* FULL TOP ABOVE VIDEO */
+  pointer-events: auto; /* VERY IMPORTANT */
+}
+
+/* KEEP CARD OPEN */
+.vertical-box:hover .vertical-dropdown-box,
+.vertical-dropdown-box:hover {
+  display: flex;
+}
+
+.drop-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: #fff;
+  border-radius: 12px;
+  text-decoration: none;
+  color: black;          /* text always visible */
+  width: 100%;           /* FULL clickable width */
+  position: relative;    /* Important for stacking */
+  z-index: 999999;       /* SUPER IMPORTANT */
+}
+
+.drop-item:hover {
+  background: #f4f4f4;
+}
+
+.drop-img {
+  width: 95px;
+  height: 80px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.drop-item h3 {
+  font-size: 15px;        /* choose your size */
+  font-family: 'Poppins', sans-serif;   /* or whatever you use */
+  font-weight: 700;
+  margin: 0;
+  color: black;
+}
+
+
+/* TEXT ALWAYS VISIBLE */
+.drop-item h3, .drop-item p {
+  opacity: 1 !important;        /* FORCE visible */
+  visibility: visible !important;
+  display: block !important;
+  color: black !important;
+}
+
+/* Bigger text */
+.drop-title {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.drop-desc {
+  margin: 4px 0 0;
+  font-size: 15px;
+  color: #555;
+}
+.drop-item h3,
+.drop-item p {
+  opacity: 1 !important;
+  visibility: visible !important;
+  transform: none !important;
+
+}

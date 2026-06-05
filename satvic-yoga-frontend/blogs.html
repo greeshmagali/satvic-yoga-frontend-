@@ -1,0 +1,991 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="blogs.css">
+
+</head>
+
+<body>
+<section id="blogsCard">
+   <nav>
+        <img class="footer-logo" src="https://webnew.satvicmovement.org/logo/satvic-logo.svg" alt="Satvic Logo">
+        <ul class="nav-links">
+            <li><a href="aboutUs.html">About Us</a></li>
+            <li><a href="workshop.html">Workshops</a></li>
+            <li><a href="books.html">Books</a></li>
+            <li><a href="blogs.html">Healing Stories</a></li>
+            <li><a href="contactUs.html">ContactUs</a></li>
+             <li><a href="login.html">Workshop Login</a></li>
+           
+            <li style="position: relative;">
+  <a href="#" id="cart-btn">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+      fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+      <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"/>
+    </svg>
+  </a>
+
+  <span id="cart-count"
+    style="
+      background:red;
+      color:white;
+      padding:1px 6px;
+      font-size:12px;
+      border-radius:50%;
+      position:absolute;
+      top:-5px;
+      right:-10px;
+      display:none;
+    ">0</span>
+</li>
+            </ul>
+        
+    </nav>
+    <div>
+
+        <div class="heading-con">
+           <h4 class="heading">Healing Stories</h4>
+        </div>
+
+        <div id="firstRow">
+         <div class="first-row">
+            <div class="story-card shadow">
+                <img src="https://store.satvicmovement.org/cdn/shop/articles/Shreya_2.png?v=1634214302&width=720"/>
+                <div>
+                  <a style="font-size:17px;">Severe eczema gone, new skin with glow on!</a>
+                  <p style="font-size:10px;">14 October 2021</p>
+                  
+                </div>
+
+            </div>
+
+            <div class="story-card shadow">
+                <img src="https://store.satvicmovement.org/cdn/shop/articles/Sid_14.png?v=1738953985&width=720"/>
+                <div>
+                   <a style="font-size:17px;">Sleeplessness of 8 years, gone in 3 weeks</a>
+                   <p style="font-size:10px;">14 October 2021</p>
+                   
+                </div>
+
+            </div>
+
+            <div class="story-card shadow">
+                <img src="https://store.satvicmovement.org/cdn/shop/articles/WhatsApp_Image_2021-10-13_at_10.18.21_AM.jpg?v=1634123421&width=720"/>
+                <div>
+                   <a style="font-size:17px;">How the Kaul family teamed up to beat<br/> Diabetes, high BP, and obesity</a>
+                   <p style="font-size:10px;">13 October 2021</p>
+                  
+                </div>
+
+            </div>
+        
+
+
+         </div>
+
+
+         <div class="first-row">
+            <div class="story-card shadow">
+                <img src="https://store.satvicmovement.org/cdn/shop/articles/JJ.png?v=1634112111&width=720"/>
+                <div>
+                  <a style="font-size:17px;">Josephine ended her 18 year silent torture of<br/>IBS in just 5 months</a>
+                  <p style="font-size:10px;">13 October 2021</p>
+                  
+                </div>
+
+            </div>
+
+            <div class="story-card shadow">
+                <img src="https://store.satvicmovement.org/cdn/shop/articles/WhatsApp_Image_2021-09-17_at_6.01.32_PM.jpg?v=1634104354&width=720"/>
+                <div>
+                   <a style="font-size:17px;">Prashant overcomes his Ankolysing<br/> Spondilytis and stands on his feet again</a>
+                   <p style="font-size:10px;">13 October 2021</p>
+                   
+                </div>
+
+            </div>
+
+            <div class="story-card shadow">
+                <img src="https://store.satvicmovement.org/cdn/shop/articles/Pooja.jpg?v=1625812807&width=720"/>
+                <div>
+                   <a style="font-size:17px;">Pooja won an intense battle with Psoriasis in<br/> 6 months and reclaimed her faith in Mother<br/> Nature</a>
+                   <p style="font-size:10px;">20 March 2021</p>
+                   
+                </div>
+
+            </div>
+
+
+         </div>
+
+
+         <div class="first-row">
+            <div class="story-card shadow">
+                <img src="https://store.satvicmovement.org/cdn/shop/articles/Debjani.jpg?v=1625813525&width=720"/>
+                <div>
+                  <a style="font-size:17px;">How 50 year old Debjani lost 25 kilos in 8 months</a>
+                  <p style="font-size:10px;">8 March 2021</p>
+                  
+                </div>
+
+            </div>
+
+            <div class="story-card shadow">
+                <img src="https://store.satvicmovement.org/cdn/shop/articles/Before_2.png?v=1615029718&width=720"/>
+                <div>
+                   <a style="font-size:17px;">60-year-old Sangeeta reverses her 30-year-<br/>old diabetes and hypothyroidism in 4 months</a>
+                   <p style="font-size:10px;">6 March 2021</p>
+                  
+                </div>
+
+            </div>
+
+            <div class="story-card shadow">
+                <img src="https://store.satvicmovement.org/cdn/shop/articles/Before_1_55b0f266-73c0-4d88-81b6-29608aa34d6a.png?v=1615028126&width=720"/>
+                <div>
+                   <a style="font-size:17px;">Vedant reverses high BP, high cholesterol, &<br/> diastolic dysfunction within 3 months</a>
+                   <p style="font-size:10px;">6 March 2021</p>
+                  
+                </div>
+
+            </div>
+
+
+         </div>
+
+
+         <div class="first-row">
+            <div class="story-card shadow">
+                <img src="https://store.satvicmovement.org/cdn/shop/articles/Sapna-5.png?v=1615018132&width=720"/>
+                <div>
+                  <a style="font-size:17px;">Dreamless and breathless for 20 years, Sapna<br/>reverses Sinusitis in just 21 days!</a>
+                  <p style="font-size:10px;">6 March 2021</p>
+                 
+                </div>
+
+            </div>
+
+            <div class="story-card shadow">
+                <img src="https://store.satvicmovement.org/cdn/shop/articles/WhatsApp_Image_2021-03-06_at_12.53.31_PM.jpg?v=1615016077&width=720"/>
+                <div>
+                   <a style="font-size:17px;">Seema unbelievably reverses Rheumatoid<br/> Arthritis in 3 months!</a>
+                   <p style="font-size:10px;">6 March 2021</p>
+                   
+                </div>
+
+            </div>
+
+            <div class="story-card shadow">
+                <img src="https://store.satvicmovement.org/cdn/shop/articles/WhatsApp_Image_2021-02-24_at_11.53.26_AM_1_6a66b967-05c5-4891-be4e-a3b94d1ab012.jpg?v=1614668391&width=720"/>
+                <div>
+                   <a style="font-size:17px;">Tushar’s sinus symptoms half gone in 2 days,<br/> and fully reversed in 28!</a>
+                   <p style="font-size:10px;">1 March 2021</p>
+                 
+                </div>
+
+            </div>
+
+
+        </div>
+     </div>
+
+        <div id="secondRow" hidden>
+        <div class="first-row">
+            <div class="story-card shadow">
+                <img src="https://store.satvicmovement.org/cdn/shop/articles/InShot_20210219_123606566.jpg?v=1614587139&width=720"/>
+                <div>
+                  <a style="font-size:17px;">Khandelwal family gets together and loses 55<br/> kg!</a>
+                  <p style="font-size:10px;">1 March 2021</p>
+                 
+                </div>
+
+            </div>
+
+            <div class="story-card shadow">
+                <img src="https://store.satvicmovement.org/cdn/shop/articles/WhatsApp_Image_2021-03-01_at_12.57.12_PM.jpg?v=1614584168&width=720"/>
+                <div>
+                   <a style="font-size:17px;">Life hits Heta with Rheumatoid Arthritis, she<br/> reverses it within 90 days</a>
+                   <p style="font-size:10px;">1 March 2021</p>
+                
+                </div>
+
+            </div>
+
+            <div class="story-card shadow">
+                <img src="https://store.satvicmovement.org/cdn/shop/articles/Before_17.png?v=1614430317&width=720"/>
+                <div>
+                   <a style="font-size:17px;">Vidhi's journey of reducing psoriasis, weight<br/> & anxiety, all in 30 days</a>
+                   <p style="font-size:10px;">27 February 2021</p>
+             
+                </div>
+
+            </div>
+        
+
+
+         </div>
+
+
+         <div class="first-row">
+            <div class="story-card shadow">
+                <img src="https://store.satvicmovement.org/cdn/shop/articles/WhatsApp_Image_2021-02-25_at_5.17.06_PM.jpg?v=1614428073&width=720"/>
+                <div>
+                  <a style="font-size:17px;">Manasvi's journey from hormonal pills to<br/> antidepressant pills to zero pills</a>
+                  <p style="font-size:10px;">27 February 2021</p>
+                
+                </div>
+
+            </div>
+
+            <div class="story-card shadow">
+                <img src="https://store.satvicmovement.org/cdn/shop/articles/NEERAJ_JI.jpg?v=1614339005&width=720"/>
+                <div>
+                   <a style="font-size:17px;">Neeraj erases his psoriasis patch and scores a<br/>perfect 8/8 immunity score</a>
+                   <p style="font-size:10px;">26 February 2021</p>
+                
+                </div>
+
+            </div>
+
+            <div class="story-card shadow">
+                <img src="https://store.satvicmovement.org/cdn/shop/articles/Before_16.png?v=1614337172&width=720"/>
+                <div>
+                   <a style="font-size:17px;">Suvidha ends her 5 year struggle with PCOD<br/> in just 3 months</a>
+                   <p style="font-size:10px;">26 February 2021</p>
+                
+                </div>
+
+            </div>
+
+
+         </div>
+
+
+         <div class="first-row">
+            <div class="story-card shadow">
+                <img src="https://store.satvicmovement.org/cdn/shop/articles/sakshhii.jpg?v=1614319889&width=720"/>
+                <div>
+                  <a style="font-size:17px;">Sakshi gets rid of painful periods & excess<br/>weight within 3 months</a>
+                  <p style="font-size:10px;">26 February 2021</p>
+                
+                </div>
+
+            </div>
+
+            <div class="story-card shadow">
+                <img src="https://store.satvicmovement.org/cdn/shop/articles/WhatsApp_Image_2021-02-21_at_1.30.24_PM_1.jpg?v=1615030252&width=720"/>
+                <div>
+                   <a style="font-size:17px;">Anushree reverses migraine and fissures in 3<br/> months, and becomes a better mother</a>
+                   <p style="font-size:10px;">26 February 2021</p>
+                
+                </div>
+
+            </div>
+
+            <div class="story-card shadow">
+                <img src="https://store.satvicmovement.org/cdn/shop/articles/Vatssal_ji.jpg?v=1614249430&width=720"/>
+                <div>
+                   <a style="font-size:17px;">Vatssal reverses Cholesterol, High BP and<br/> reduces 18 kg in 90 days</a>
+                   <p style="font-size:10px;">25 February 2021</p>
+                
+                </div>
+
+            </div>
+
+
+         </div>
+
+
+         <div class="first-row">
+            <div class="story-card shadow">
+                <img src="https://store.satvicmovement.org/cdn/shop/articles/Poornima_d1108564-f78d-4396-88a7-7471b882ddf1.jpg?v=1614248283&width=720"/>
+                <div>
+                  <a style="font-size:17px;">Poornima heals PCOD of 2 years in 2 months</a>
+                  <p style="font-size:10px;">25 February 2021</p>
+                
+                </div>
+
+            </div>
+
+            <div class="story-card shadow">
+                <img src="https://store.satvicmovement.org/cdn/shop/articles/WhatsApp_Image_2021-02-09_at_8.03.03_PM.jpg?v=1613567996&width=720"/>
+                <div>
+                   <a style="font-size:17px;">Neha reverses her thyroid within 3 months &<br/> discovers her dharma for life</a>
+                   <p style="font-size:10px;">17 February 2021</p>
+                
+                </div>
+
+            </div>
+
+            <div class="story-card shadow">
+                <img src="https://store.satvicmovement.org/cdn/shop/articles/Before_13.png?v=1613564806&width=720"/>
+                <div>
+                   <a style="font-size:17px;">Neha reverses her thyroid in just 3 months<br/> and finds a new love for life</a>
+                   <p style="font-size:10px;">17 February 2021</p>
+                
+                </div>
+
+            </div>
+
+
+        </div>
+     </div>
+
+
+        <div id="thirdRow" hidden>
+         <div class="first-row">
+            <div class="story-card shadow">
+                <img src="https://store.satvicmovement.org/cdn/shop/articles/WhatsApp_Image_2021-03-06_at_4.06.54_PM_1.jpg?v=1615030773&width=720"/>
+                <div>
+                  <a style="font-size:17px;">Vidhi reverses PCOD, anxiety & insomnia and<br/> discovers true meaning of joy</a>
+                  <p style="font-size:10px;">17 February 2021</p>
+                
+                </div>
+
+            </div>
+
+            <div class="story-card shadow">
+                <img src="https://store.satvicmovement.org/cdn/shop/articles/Before_12.png?v=1613551096&width=720"/>
+                <div>
+                   <a style="font-size:17px;">Ritika's journey from TSH of 159 to 0.91!</a>
+                   <p style="font-size:10px;">17 February 2021</p>
+                
+                </div>
+
+            </div>
+
+            <div class="story-card shadow">
+                <img src="https://store.satvicmovement.org/cdn/shop/articles/picture_3.jpg?v=1613479895&width=720"/>
+                <div>
+                   <a style="font-size:17px;">Falguni reverses 4 year old sinusitis within 4<br/> months</a>
+                   <p style="font-size:10px;">16 February 2021</p>
+                
+                </div>
+
+            </div>
+        
+
+
+        </div>
+
+
+         <div class="first-row">
+            <div class="story-card shadow">
+                <img src="https://store.satvicmovement.org/cdn/shop/articles/Before_10.png?v=1613395200&width=720"/>
+                <div>
+                  <a style="font-size:17px;">Nitika reverses her 7 year old acne in 1<br/> month</a>
+                  <p style="font-size:10px;">15 February 2021</p>
+                
+                </div>
+
+            </div>
+
+            <div class="story-card shadow">
+                <img src="https://store.satvicmovement.org/cdn/shop/articles/Before_11.png?v=1613395557&width=720"/>
+                <div>
+                   <a style="font-size:17px;">Ravindra reverses high blood pressure,<br/> psoriasis & stands back on his feet</a>
+                   <p style="font-size:10px;">15 February 2021</p>
+                 
+                </div>
+
+            </div>
+
+            <div class="story-card shadow">
+                <img src="https://store.satvicmovement.org/cdn/shop/articles/Before_9.png?v=1613390107&width=720"/>
+                <div>
+                   <a style="font-size:17px;">One Month Satvic lifestyle on, PCOD and <br/>Vitamin-D deficiency Gone!</a>
+                   <p style="font-size:10px;">15 February 2021</p>
+                
+                </div>
+
+            </div>
+
+
+         </div>
+
+
+         <div class="first-row">
+            <div class="story-card shadow">
+                <img src="https://store.satvicmovement.org/cdn/shop/articles/Before_8.png?v=1613387645&width=720"/>
+                <div>
+                  <a style="font-size:17px;">Disha reverses gastritis, piles, acne & low<br/> blood pressure within 2 months</a>
+                  <p style="font-size:10px;">15 February 2021</p>
+                
+                </div>
+
+            </div>
+
+            <div class="story-card shadow">
+                <img src="https://store.satvicmovement.org/cdn/shop/articles/WhatsApp_Image_2021-02-08_at_4.57.30_PM.jpg?v=1613210660&width=720"/>
+                <div>
+                   <a style="font-size:17px;">Abhinaya got rid of 6 cysts in 7 days and<br/> reversed her Thyroid and PCOD in 3 months</a>
+                   <p style="font-size:10px;">15 February 2021</p>
+                
+                </div>
+
+            </div>
+
+            <div class="story-card shadow">
+                <img src="https://store.satvicmovement.org/cdn/shop/articles/Before_cd470ea4-a07d-4e10-81e4-dbf7b209c74d.png?v=1613132995&width=720"/>
+                <div>
+                   <a style="font-size:17px;">Divyata reverses 6 diseases & reduces 18 kg<br/> within 4 months</a>
+                   <p style="font-size:10px;">12 February 2021</p>
+                
+                </div>
+
+            </div>
+
+
+         </div>
+
+
+         <div class="first-row">
+            <div class="story-card shadow">
+                <img src="https://store.satvicmovement.org/cdn/shop/articles/Before_1.png?v=1613129950&width=2000"/>
+                <div>
+                  <a style="font-size:17px;">Amrita breaks free from her 10 year long<br/> struggle with Thyroid in just 3 months</a>
+                  <p style="font-size:10px;">12 February 2021</p>
+                
+                </div>
+
+            </div>
+
+            <div class="story-card shadow">
+                <img src="https://store.satvicmovement.org/cdn/shop/articles/WhatsApp_Image_2020-12-09_at_17.52.02.jpg?v=1613123538&width=720"/>
+                <div>
+                   <a style="font-size:17px;">Sangeeta reverses 20 year old sinusitis in just<br/> 2 months</a>
+                   <p style="font-size:10px;">12 February 2021</p>
+                
+                </div>
+
+            </div>
+
+            <div class="story-card shadow">
+                <img src="https://store.satvicmovement.org/cdn/shop/articles/AbhishekBP.jpg?v=1613121904&width=720"/>
+                <div>
+                   <a style="font-size:17px;">Abhishek renews his faith in Mother Nature by<br/>reversing his high BP in 4 months</a>
+                   <p style="font-size:10px;">12 February 2021</p>
+                
+                </div>
+
+            </div>
+
+
+        </div>
+        </div>
+
+
+
+        <div id="fourthRow" hidden>
+         <div class="first-row">
+            <div class="story-card shadow">
+                <img src="https://store.satvicmovement.org/cdn/shop/articles/Before_9349be33-2cf4-4616-9fa8-b9a5b08c278b.png?v=1613121600&width=720"/>
+                <div>
+                  <a style="font-size:17px;">Avinash fought 1 battle but won 3 wars. He<br/>reversed thyroid, bronchitis and obesity<br/> within 6 months.</a>
+                  <p style="font-size:10px;">12 February 2021</p>
+                
+                </div>
+
+            </div>
+
+            <div class="story-card shadow">
+                <img src="https://store.satvicmovement.org/cdn/shop/articles/Before_5.png?v=1613113853&width=720"/>
+                <div>
+                   <a style="font-size:17px;">Gunjan reverses PCOD & loses 10 kg in 2<br/> months</a>
+                   <p style="font-size:10px;">12 February 2021</p>
+                
+                </div>
+
+            </div>
+
+            <div class="story-card shadow">
+                <img src="https://store.satvicmovement.org/cdn/shop/articles/Before_4.png?v=1613109676&width=720"/>
+                <div>
+                   <a style="font-size:17px;">Anjali reverses PCOD in just 1 month</a>
+                   <p style="font-size:10px;">12 February 2021</p>
+                
+                </div>
+
+            </div>
+       
+
+
+         </div>
+
+
+         <div class="first-row">
+            <div class="story-card shadow">
+                <img src="https://store.satvicmovement.org/cdn/shop/articles/abhshek.jpg?v=1613106984&width=720"/>
+                <div>
+                  <a style="font-size:17px;">Abhishek reverses his diabetes and high<br/> blood pressure in 4 months</a>
+                  <p style="font-size:10px;">12 February 2021</p>
+                
+                </div>
+
+            </div>
+
+            <div class="story-card shadow">
+                <img src="https://store.satvicmovement.org/cdn/shop/articles/IMG-20210116-WA0040_1_3082ee0f-e150-4691-b563-4a394ced08b2.jpg?v=1612810268&width=720"/>
+                <div>
+                   <a style="font-size:17px;">Lagan reverses his sinusitis & learns to<br/> breathe again within a month</a>
+                   <p style="font-size:10px;">9 February 2021</p>
+                
+                </div>
+
+            </div>
+
+            <div class="story-card shadow">
+                <img src="https://store.satvicmovement.org/cdn/shop/articles/Before_3.png?v=1612812834&width=720"/>
+                <div>
+                   <a style="font-size:17px;">Annanya reverses PCOD, acne, hair fall &<br/>sheds 15 kg in 4 months</a>
+                   <p style="font-size:10px;">9 February 2021</p>
+                
+                </div>
+
+            </div>
+
+
+         </div>
+
+
+         <div class="first-row">
+            <div class="story-card shadow">
+                <img src="https://store.satvicmovement.org/cdn/shop/articles/WhatsApp_Image_2020-12-08_at_12.19.05_PM.jpg?v=1612806318&width=720"/>
+                <div>
+                  <a style="font-size:17px;">Aarsh's 10 year struggle with Rheumatoid<br/> Arthritis ended in just 4 months</a>
+                  <p style="font-size:10px;">8 February 2021</p>
+                
+                </div>
+
+            </div>
+
+            <div class="story-card shadow">
+                <img src="https://store.satvicmovement.org/cdn/shop/articles/Before.png?v=1612793436&width=720"/>
+                <div>
+                   <a style="font-size:17px;">Ruchi reverses PCOD, sinusitis,<br/> hypothyroidism & sheds 15 kg in 3 months</a>
+                   <p style="font-size:10px;">8 February 2021</p>
+                
+                </div>
+
+            </div>
+
+            <div class="story-card shadow">
+                <img src="https://store.satvicmovement.org/cdn/shop/articles/Healing_Stories_6.png?v=1587708536&width=720"/>
+                <div>
+                   <a style="font-size:17px;">Ramesh reverses psoriasis, arthritis &<br/> discovers a 20 cm worm in his stool</a>
+                   <p style="font-size:10px;">8 February 2021</p>
+                
+                </div>
+
+            </div>
+
+
+         </div>
+
+
+         <div class="first-row">
+            <div class="story-card shadow">
+                <img src="https://store.satvicmovement.org/cdn/shop/articles/Healing_Stories_8.png?v=1587709376&width=720"/>
+                <div>
+                  <a style="font-size:17px;">Ruffa reverses PCOS, acne & hair fall within 6<br/> months</a>
+                  <p style="font-size:10px;">13 March 2020</p>
+                
+                </div>
+
+            </div>
+
+            <div class="story-card shadow">
+                <img src="https://store.satvicmovement.org/cdn/shop/articles/Untitled_design_2_02978c20-4e9d-47bb-b979-6627a402a98e.png?v=1574749620&width=720"/>
+                <div>
+                   <a style="font-size:17px;">19 years old Jatan reverses thyroid imbalance<br/> in 4 months</a>
+                   <p style="font-size:10px;">21 March 2020</p>
+                
+                </div>
+
+            </div>
+
+            <div class="story-card shadow">
+                <img src="https://store.satvicmovement.org/cdn/shop/articles/Esha_Joshi_2.jpg?v=1579337471&width=720"/>
+                <div>
+                   <a style="font-size:17px;">Esha reverses high blood sugar levels & heals<br/> her surgical wound</a>
+                   <p style="font-size:10px;">7 March 2021</p>
+                
+                </div>
+
+            </div>
+
+
+        </div>
+        </div>
+
+        <div id="fifthRow" hidden>
+         <div  class="first-row">
+            <div class="story-card shadow">
+                <img src="https://store.satvicmovement.org/cdn/shop/articles/Shreya_2.png?v=1634214302&width=720"/>
+                <div>
+                  <a style="font-size:17px;">Keerthika reverses PCOD, thyroid imbalance<br/> & lost 11 kg in 2.5 months</a>
+                  <p style="font-size:10px;">4 March 2020</p>
+               
+                </div>
+
+            </div>
+
+            <div class="story-card shadow">
+                <img src="https://store.satvicmovement.org/cdn/shop/articles/IMG-20200422-WA0005_1.jpg?v=1588064763&width=720"/>
+                <div>
+                   <a style="font-size:17px;">Ishita reverses fibroids and experiences pain free<br/> period for the first time in 8 years.</a>
+                   <p style="font-size:10px;">3 March 2020</p>
+                
+                </div>
+
+            </div>
+
+            <div class="story-card shadow">
+                <img src="https://store.satvicmovement.org/cdn/shop/articles/vrinda.png?v=1586867358&width=720"/>
+                <div>
+                   <a style="font-size:17px;">Vrinda reverses her eczema within 3 weeks</a>
+                   <p style="font-size:10px;">2 March 2020</p>
+               
+                </div>
+
+            </div>
+        
+
+
+         </div>
+
+
+         <div class="first-row">
+            <div class="story-card shadow">
+                <img src="https://store.satvicmovement.org/cdn/shop/articles/Carry-On_Essntials_4.png?v=1588577975&width=720"/>
+                <div>
+                  <a style="font-size:17px;">Roshan quits smoking, alcohol and sees great<br/> improvements in his overall health</a>
+                  <p style="font-size:10px;">13 February 2020</p>
+                
+                </div>
+
+            </div>
+
+            <div class="story-card shadow">
+                <img src="https://store.satvicmovement.org/cdn/shop/articles/Deepshikha_Mehra_3_1.jpg?v=1584958159&width=720"/>
+                <div>
+                   <a style="font-size:17px;">Deepshikha sees huge improvement in her Vitamin<br/> D & B12 levels.</a>
+                   <p style="font-size:10px;">10 February 2020</p>
+                
+                </div>
+
+            </div>
+
+            <div class="story-card shadow">
+                <img src="https://store.satvicmovement.org/cdn/shop/articles/Kamal_Rochlani_2.jpeg?v=1573121728&width=720"/>
+                <div>
+                   <a style="font-size:17px;">Kamal changed his food and fulfilled his dreams <br/>of travelling</a>
+                   <p style="font-size:10px;">4 February 2020</p>
+                
+                </div>
+
+            </div>
+
+
+         </div>
+
+
+         <div class="first-row">
+            <div class="story-card shadow">
+                <img src="https://store.satvicmovement.org/cdn/shop/articles/Carry-On_Essntials_5.png?v=1588578025&width=720"/>
+                <div>
+                  <a style="font-size:17px;">Rashi reverses frequent headaches, acidity attacks<br/> & PCOD in 3 months</a>
+                  <p style="font-size:10px;">2 February 2020</p>
+               
+                </div>
+
+            </div>
+
+            <div class="story-card shadow">
+                <img src="https://store.satvicmovement.org/cdn/shop/articles/shilpa_aggarwal.jpeg?v=1582012389&width=720"/>
+                <div>
+                   <a style="font-size:17px;">Shilpa reverses PCOS, improves eyesight & lost 23 kg</a>
+                   <p style="font-size:10px;">2 February 2020</p>
+                
+                </div>
+
+            </div>
+
+            <div class="story-card shadow">
+                <img src="https://store.satvicmovement.org/cdn/shop/articles/WhatsApp_Image_2021-03-06_at_2.55.54_PM.jpg?v=1615025029&width=720"/>
+                <div>
+                   <a style="font-size:17px;">Pruthiviraj cures fatty liver & intestinal swelling<br/> in 1 week</a>
+                   <p style="font-size:10px;">1 February 2020</p>
+                
+                </div>
+
+            </div>
+
+
+         </div>
+
+
+         <div class="first-row">
+            <div class="story-card shadow">
+                <img src="https://store.satvicmovement.org/cdn/shop/articles/anjai.jpg?v=1580212596&width=720"/>
+                <div>
+                  <a style="font-size:17px;">Anjali reverses hypothyroidism & regularizes her periods<br/> within 2 months</a>
+                  <p style="font-size:10px;">1 February 2020</p>
+                
+                </div>
+
+            </div>
+
+            <div class="story-card shadow">
+                <img src="https://store.satvicmovement.org/cdn/shop/articles/Diya_Premani_3.jpeg?v=1573294504&width=720"/>
+                <div>
+                   <a style="font-size:17px;">Diya Premani reverses hypothyroidism and lost<br/> 15 kg in 4 months</a>
+                   <p style="font-size:10px;">30 January 2020</p>
+                
+                </div>
+
+            </div>
+
+            <div class="story-card shadow">
+                <img src="https://store.satvicmovement.org/cdn/shop/articles/Darshika_2.jpeg?v=1580215271&width=720"/>
+                <div>
+                   <a style="font-size:17px;">Darshika cures her skin & hair problems and lost 10 kg</a>
+                   <p style="font-size:10px;">29 January 2020</p>
+                
+                </div>
+
+            </div>
+
+
+        </div>
+        </div>
+
+        <div id="sixthRow" hidden>
+         <div class="first-row">
+            <div class="story-card shadow">
+                <img src="https://store.satvicmovement.org/cdn/shop/articles/Shreya_2.png?v=1634214302&width=720"/>
+                <div>
+                  <a style="font-size:17px;">Amita reverses 20-year-old fibromyaglia & cervical<br/> in 4 months</a>
+                  <p style="font-size:10px;">27 January 2020</p>
+                
+                </div>
+
+            </div>
+
+            <div class="story-card shadow">
+                <img src="https://store.satvicmovement.org/cdn/shop/articles/ramya_raghavan_pic_2.jpg?v=1580288007&width=720"/>
+                <div>
+                   <a style="font-size:17px;">Ramya regularizes her periods & lost 18 kg</a>
+                   <p style="font-size:10px;">25 January 2020</p>
+                
+                </div>
+
+            </div>
+
+            <div class="story-card shadow">
+                <img src="https://store.satvicmovement.org/cdn/shop/articles/WhatsApp_Image_2021-03-06_at_2.54.58_PM.jpg?v=1615024913&width=720"/>
+                <div>
+                   <a style="font-size:17px;">Sumit reverses constipation & Vit B12 deficiency<br/> in 2 months</a>
+                   <p style="font-size:10px;">22 January 2020</p>
+                
+                </div>
+
+            </div>
+       
+
+
+         </div>
+
+
+         <div class="first-row">
+            <div class="story-card shadow">
+                <img src="https://store.satvicmovement.org/cdn/shop/articles/Untitled_design_14.png?v=1574756080&width=720"/>
+                <div>
+                  <a style="font-size:17px;">Hridaya reverses hypothyroidism, high blood<br/> pressure & hair fall in 3 months</a>
+                  <p style="font-size:10px;">20 January 2020</p>
+                
+                </div>
+
+            </div>
+
+            <div class="story-card shadow">
+                <img src="https://store.satvicmovement.org/cdn/shop/articles/Untitled_design_4.png?v=1574747060&width=720"/>
+                <div>
+                   <a style="font-size:17px;">Atiya fights her way back from depression &<br/> reduces her TSH levels</a>
+                   <p style="font-size:10px;">17 January 2020</p>
+                
+                </div>
+
+            </div>
+
+            <div class="story-card shadow">
+                <img src="https://store.satvicmovement.org/cdn/shop/articles/Untitled_design_12_9634ff7f-b365-427c-9a11-4bd16e0411d5.png?v=1581682603&width=720"/>
+                <div>
+                   <a style="font-size:17px;">Rashmi improves TSH levels & lost 7 kg</a>
+                   <p style="font-size:10px;">17 January 2020</p>
+               
+                </div>
+
+            </div>
+
+
+         </div>
+
+
+         <div class="first-row">
+            <div class="story-card shadow">
+                <img src="https://store.satvicmovement.org/cdn/shop/articles/Untitled_design_15.png?v=1575875679&width=720"/>
+                <div>
+                  <a style="font-size:17px;">Shilpi reverses severe acidity & stomach pain<br/> within 2 months</a>
+                  <p style="font-size:10px;">7 December 2019</p>
+                
+                </div>
+
+            </div>
+
+            <div class="story-card shadow">
+                <img src="https://store.satvicmovement.org/cdn/shop/articles/Vaishali_1.jpeg?v=1575118476&width=720"/>
+                <div>
+                   <a style="font-size:17px;">Vaishali reverses constipation & insomnia in 2 <br/>months</a>
+                   <p style="font-size:10px;">30 November 2019</p>
+                
+                </div>
+
+            </div>
+
+            <div class="story-card shadow">
+                <img src="https://store.satvicmovement.org/cdn/shop/articles/Raza_Abbas_1.jpeg?v=1573823217&width=720"/>
+                <div>
+                   <a style="font-size:17px;">Raza Abbas cures his frequent headaches, cold,<br/> and fever</a>
+                   <p style="font-size:10px;">16 November 2019</p>
+                
+                </div>
+
+            </div>
+
+
+         </div>
+
+
+         <div class="first-row">
+            <div class="story-card shadow">
+                <img src="https://store.satvicmovement.org/cdn/shop/articles/Sujata_Bedre.jpeg?v=1573806108&width=720"/>
+                <div>
+                  <a style="font-size:17px;">59 year old Sujata, cures high blood pressure,<br/> sinusitis & spondilytis</a>
+                  <p style="font-size:10px;">15 November 2019</p>
+                
+                </div>
+
+            </div>
+
+            <div class="story-card shadow">
+                <img src="https://store.satvicmovement.org/cdn/shop/articles/Renuka.jpg?v=1573798547&width=720"/>
+                <div>
+                   <a style="font-size:17px;">Renuka reverses hypothyroidism & body pain in <br/>2 months</a>
+                   <p style="font-size:10px;">15 November 2019</p>
+                
+                </div>
+
+            </div>
+
+            <div class="story-card shadow">
+                <img src="https://store.satvicmovement.org/cdn/shop/articles/Untitled_design_12.png?v=1574748308&width=720"/>
+                <div>
+                   <a style="font-size:17px;">Shanmuga reverses UTI in 3 days, migraines,<br/> acidity & body pain in3 months</a>
+                   <p style="font-size:10px;">14 November 2019</p>
+                
+                </div>
+
+            </div>
+            </div>
+
+
+
+        </div> 
+              <div class="btns">
+                   <button class="review-btn"  onclick="showPage(1)">1</button>
+                    <button class="review-btn"   onclick="showPage(2)">2</button>
+                    <button class="review-btn"   onclick="showPage(3)">3</button>
+                    <button class="review-btn"   onclick="showPage(4)">4</button>
+                    <button class="review-btn"   onclick="showPage(5)">5</button>
+                    <button class="review-btn"   onclick="showPage(6)">6</button>
+                </div>
+    </div>
+
+
+
+
+
+
+    <footer class="satvic-footer">
+        <div class="footer-content">
+
+
+            <div class="footer-left">
+                <img class="footer-logo" src="https://webnew.satvicmovement.org/logo/satvic-logo.svg" alt="Satvic Logo">
+                <div class="social-icons">
+                    <a href="https://www.youtube.com/satvicmovement" targent="_blank"><img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube"></a>
+                    <a href="https://www.instagram.com/satvicmovement" targent="_blank"><img src="https://cdn-icons-png.flaticon.com/512/1384/1384063.png" alt="Instagram"></a>
+                    <a href="https://www.facebook.com/satvicmovement" targent="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook"></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <div>
+                    <ul>
+                        <li><a href="aboutUs.html">About Us</a></li>
+                        <li><a href="workshop.html">Workshops</a></li>
+                        <li><a href="books.html">Books</a></li>
+                        <li><a href="index.html">Satvic Yoga</a></li>
+                        <li><a href="satvicYouth.html">Satvic Youth</a></li>
+                        <li><a href="meetTheTeam.html">Meet The Team</a></li>
+                       <li><a href="blogs.html">Blogs</a></li>
+                        <li><a href="contactUs.html">Contact Us</a></li>
+                        <li><a href="privacyPolicy.html">Privacy Policy</a></li>
+                        <li><a href="termsOfService.html">Terms of Service</a></li>
+                        <li><a href="refundPolicy.html">Refund Policy</a></li>
+                         <li><a href="shippingPolicy.html">Shipping Policy</a></li>
+                    </ul>
+                </div>
+
+                <div>
+
+            
+
+            <div class="footer-newsletter">
+               <img src="https://store.satvicmovement.org/cdn/shop/files/MobileHeroLogo.png?v=1739006884&width=250"/>
+               <p>Connect with us and be part of something impactful.<br/><br/></p>
+               <div>
+                Satvic Movement Pvt. Ltd.<br/>
+               CIN-U92490WB2023PTC259946<br/>
+               GSTIN- 29ABKCS2176F1Z1<br/>
+               Registered Address-15 C, HEMANTA BASU SARANI, Kolkata, Kolkata, WestBengal, India, 700001
+               </div>
+            </div>
+
+        </div>
+
+        
+    </footer>
+
+
+<div class="cart-sidebar" id="cartSidebar">
+  <h3 class="cart-title">Your Cart</h3>
+  <div id="cartItems"></div>
+</div>
+</div>
+
+
+
+</section>
+<script src="blogs.js"></script>
+</body>
+
+</html>

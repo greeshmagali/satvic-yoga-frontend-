@@ -1,0 +1,262 @@
+.first-container {
+    background-size: cover;
+    width: 100%;
+    font-family: "Poppins", "Sans-Serif";
+    margin: 0;
+    padding: 0;
+}
+
+.contact-btn {
+    background-color: white;
+    color: #608b73;
+    border: none;
+    padding: 8px 18px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.contact-btn:hover {
+    background-color: #c0e3dc;
+    color: #608b73;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    position: sticky;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #618780;
+    background-size: cover;
+    padding: 15px 40px;
+    box-shadow: 0 2px 6px rgba(o, o, o, 0.1);
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: 0.3s;
+
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.nav-links li a:hover {
+    color: #f19a0f;
+}
+.heading{
+    color:white;
+    font-size:30px;
+    text-align:center;
+    margin-bottom:30px;
+}
+.heading-con{
+     background-color:#618780 ;
+    background-size: cover;
+
+}
+.options{
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    background-color: white;
+    padding:8px;
+}
+.select-options{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+ .single-book-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  margin:10px;
+}
+.single-book-img img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.single-book-img .content{
+  text-align: center;
+}
+ .book-img:hover{
+    cursor:pointer;
+ }
+ .books{
+    display:flex;
+    flex-direction: row;
+ }
+ .books a{
+     color:black;
+    text-decoration: none; 
+ }
+ .books a:hover{
+    color:black;
+    text-decoration: none;
+ }
+
+@media (min-width:728px){
+    .books-content{
+        text-align:left;
+        display:flex;
+        flex-direction:column;
+        margin-left:100px;
+        background-color: white;
+
+    }
+    .single-book-img img{
+        min-width:100%;
+        height:300px;
+    }
+    .book-img{
+       min-width:80%;
+       margin:5px;
+    }
+    .filter-options{
+        align-items:left;
+        margin-left:50px;
+        margin-right:50px;
+        
+    }
+    .book-img{
+        width:100%;
+        height:300px;
+        border-radius: 10px;
+        border-width: 0px;
+        margin:5px;
+    }
+    .books{
+        display:flex;
+        flex-direction:row;
+        
+    }
+   
+}
+.satvic-footer {
+    background-color: #5f857c;
+    color: white;
+    padding-top: 120px;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 0 20px;
+}
+
+.footer-logo {
+    width: 160px;
+    margin-bottom: 15px;
+}
+
+.social-icons img {
+    width: 34px;
+    margin-right: 12px;
+}
+
+/* Links */
+.footer-links {
+    display: flex;
+    gap: 40px;
+}
+
+.footer-links h4,
+.footer-newsletter h4 {
+    margin-bottom: 12px;
+    font-size: 18px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-links ul {
+    padding: 0;
+    list-style: none;
+}
+
+.footer-links li {
+    margin-bottom: 6px;
+}
+
+/* Large Screens */
+@media (min-width: 722px) {
+    .footer-content {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 140px;
+    }
+
+    .footer-links {
+        gap: 80px;
+    }
+
+    .footer-newsletter {
+        width: 290px;
+    }
+}
+/* Sidebar hidden by default */
+.cart-sidebar {
+  position: fixed;
+  top: 0;
+  right: -350px; /* hidden offscreen */
+  width: 350px;
+  height: 100%;
+  background-color: #fff;
+  box-shadow: -2px 0 10px rgba(0,0,0,0.3);
+  padding: 20px;
+  overflow-y: auto;
+  transition: right 0.3s ease;
+  z-index: 9999;
+}
+
+/* When active, slide in */
+.cart-sidebar.active {
+  right: 0;
+}
+
+/* Cart items styling */
+.cart-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+}
+
+.cart-img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.cart-info p {
+  margin: 0;
+}
+
+.cart-remove {
+  margin-left: auto;
+  background: none;
+  border: none;
+  color: red;
+  font-size: 16px;
+  cursor: pointer;
+}

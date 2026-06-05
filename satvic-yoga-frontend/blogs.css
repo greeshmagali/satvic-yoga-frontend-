@@ -1,0 +1,264 @@
+.first-container {
+    background-size: cover;
+    width: 100%;
+    font-family: "Poppins", "Sans-Serif";
+    margin: 0;
+    padding: 0;
+}
+
+.contact-btn {
+    background-color: white;
+    color: #608b73;
+    border: none;
+    padding: 8px 18px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.contact-btn:hover {
+    background-color: #c0e3dc;
+    color: #608b73;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    position: sticky;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #618780;
+    background-size: cover;
+    padding: 15px 40px;
+    box-shadow: 0 2px 6px rgba(o, o, o, 0.1);
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: 0.3s;
+
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.nav-links li a:hover {
+    color: #f19a0f;
+}
+.heading{
+    color:black;
+    font-weight:bold;
+    font-size:30px;
+    text-align:center;
+    margin-bottom:30px;
+}
+.heading-con{
+    text-align:center;
+    margin:10px;
+    background-size: cover;
+
+}
+.first-row{
+    display:flex;
+    flex-direction: column;
+    text-align:center;
+}
+.story-card{
+    display:flex;
+     flex-direction: column;
+    text-align:left;
+    background-color: white;
+    height:auto;
+    margin-bottom:10px;
+
+}
+.story-card img{
+    width:auto;
+    height:200px;
+}
+.story-card a:hover{
+    color:black;
+    cursor:pointer;
+    text-decoration: underline;
+
+}
+.story-card img:hover{
+     cursor:pointer;
+}
+.first-row {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@media (min-width:728px){
+    .first-row {
+        flex-direction: row;      
+        justify-content: center;   
+        align-items: center; 
+        margin-right:0px;  
+    }
+    .story-card{
+        max-width:32vw;
+        text-align:left;
+        margin-right:20px;
+        max-height:500px;
+
+    }
+    .story-card img{
+        height:300px;
+        width:450px;
+    }
+    .btns{
+    display:flex;
+    justify-content:flex-end;
+    text-align:end;
+    flex-direction:row;
+    margin-right:40px;  
+}
+}
+
+.satvic-footer {
+    background-color: #5f857c;
+    color: white;
+    padding-top: 120px;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 0 20px;
+}
+
+.footer-logo {
+    width: 160px;
+    margin-bottom: 15px;
+}
+
+.social-icons img {
+    width: 34px;
+    margin-right: 12px;
+}
+
+/* Links */
+.footer-links {
+    display: flex;
+    gap: 40px;
+}
+
+.footer-links h4,
+.footer-newsletter h4 {
+    margin-bottom: 12px;
+    font-size: 18px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-links ul {
+    padding: 0;
+    list-style: none;
+}
+
+.footer-links li {
+    margin-bottom: 6px;
+}
+
+/* Large Screens */
+@media (min-width: 722px) {
+    .footer-content {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 140px;
+    }
+
+    .footer-links {
+        gap: 80px;
+    }
+
+    .footer-newsletter {
+        width: 290px;
+    }
+}
+/* Sidebar hidden by default */
+.cart-sidebar {
+  position: fixed;
+  top: 0;
+  right: -350px; /* hidden offscreen */
+  width: 350px;
+  height: 100%;
+  background-color: #fff;
+  box-shadow: -2px 0 10px rgba(0,0,0,0.3);
+  padding: 20px;
+  overflow-y: auto;
+  transition: right 0.3s ease;
+  z-index: 9999;
+}
+
+/* When active, slide in */
+.cart-sidebar.active {
+  right: 0;
+}
+
+/* Cart items styling */
+.cart-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+}
+
+.cart-img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.cart-info p {
+  margin: 0;
+}
+
+.cart-remove {
+  margin-left: auto;
+  background: none;
+  border: none;
+  color: red;
+  font-size: 16px;
+  cursor: pointer;
+}
+.review-btn{
+    background-color:#fff;
+    color:black;
+    padding:10px;
+    border-radius:100px;
+    border-width:1px;
+    border-style:solid;
+    margin-bottom:10px;
+    margin-right:10px;
+    margin-left:4px;
+    margin-top:10px;
+    text-align:center
+}
+.btns{
+    display:flex;
+    text-align:center;
+    flex-direction:row;  
+}

@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #f6f2eb;
+  color: #333;
+}
+
+.login-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.content{
+    background-color: #f6f2eb;
+    border-top-left-radius:20px;
+     border-top-right-radius:20px;
+}
+.logo{
+    color:#176b52;
+}
+
+.login-container {
+ background-color:#f6f2eb;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.poster-image {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.description {
+  font-size: 14px;
+  padding: 0 15px;
+  color: #555;
+}
+
+.login-text {
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.input-box {
+  display: flex;
+  align-items: center;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  width: 85%;
+  margin: 10px auto;
+  padding: 5px 10px;
+}
+
+.country-code {
+  border: none;
+  outline: none;
+  font-size: 15px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.input-box input {
+  border: none;
+  outline: none;
+  padding: 10px;
+  flex: 1;
+  font-size: 15px;
+}
+
+.forgot-text {
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+.forgot-text a {
+  color: #176b52;
+  text-decoration: none;
+}
+
+.continue-btn {
+  background-color: #176b52;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 20px;
+  width: 85%;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .login-container {
+    max-width: 500px;
+  }
+  .otp-inputs input {
+      width: 45px;
+      height: 50px;
+      font-size: 20px;
+  }
+  .poster-image{
+    width:80%;
+    height:470px;
+  }
+}
+.otp-container {
+    display: none;
+    text-align: center;
+  }
+
+  .otp-container h3 {
+    margin-top: 10px;
+    color: #333;
+  }
+
+  .otp-container p {
+    color: #555;
+  }
+
+  .otp-inputs {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 15px 0;
+  }
+
+  .otp-inputs input {
+    width: 40px;
+    height: 45px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+  }
+
+  .resend {
+    color: #2f6b58;
+    font-weight: 500;
+    cursor: pointer;
+  }

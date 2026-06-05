@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="indianFoodBook.css">
+
+</head>
+
+<body>
+
+    <nav>
+        <img class="footer-logo" src="https://webnew.satvicmovement.org/logo/satvic-logo.svg" alt="Satvic Logo">
+        <ul class="nav-links">
+            <li><a href="aboutUs.html">About Us</a></li>
+            <li><a href="workshop.html">Workshops</a></li>
+            <li><a href="books.html">Books</a></li>
+            <li><a href="blogs.html">Healing Stories</a></li>
+            <li><a href="contactUs.html">ContactUs</a></li>
+             <li><a href="login.html">Workshop Login</a></li>
+            <li> <a href="#" id="cart-btn">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+      fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+      <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z"/>
+    </svg>
+  </a>
+
+  <span id="cart-count"
+    style="
+      background:red;
+      color:white;
+      padding:1px 6px;
+      font-size:12px;
+      border-radius:50%;
+      position:absolute;
+      top:-5px;
+      right:-10px;
+      display:none;
+    ">0</span>
+</li>
+            </ul>
+        
+    </nav>
+
+
+<div class="product-container">
+    <!-- Left side image -->
+    <div class="product-image">
+     <img src="https://store.satvicmovement.org/cdn/shop/files/KitchenKit-01.jpg?v=1740041270&width=990"/>
+    </div>
+
+    <!-- Right side details -->
+    <div class="product-details">
+      <h2>Kitchen Kit | 4 tools for Satvic <br/>cuisine</h2>
+      <div class="price">
+        <span>₹600.00</span><del>₹800.00</del>
+      </div>
+
+
+      <div class="quantity">
+        <button id="decrease">-</button>
+        <input type="text" id="qty" value="1">
+        <button id="increase">+</button>
+      </div>
+
+      <div class="btns">
+        <button id="addToCartBtn">Add to Bag</button>
+        <button class="buy-now">Buy It Now</button>
+      </div>
+
+      <div class="shipping-info">
+        <div class="shipping-box">
+          <h4>Ordered</h4>
+          <p>Nov 13</p>
+        </div>
+        <div class="shipping-box">
+          <h4>Dispatched</h4>
+          <p>Nov 14 - Nov 15</p>
+        </div>
+        <div class="shipping-box">
+          <h4>Delivered</h4>
+          <p>Nov 16 - Nov 18</p>
+        </div>
+      </div>
+
+      <div class="description">
+       <p>To achieve the perfect taste & consistency of recipes in the Satvic food book, you need some essential kitchen tools! <br/><br/> </p>
+       <h9 style="font-weight:bold;">The kit contains -<br/><br/></h9>
+        <ul>
+            <li>1 set of Measuring Cups<br/><br/></li>
+            <li>1 set of Measuring Spoons<br/><br/></li>
+            <li>1 Julienne Peeler<br/><br/></li>
+            <li>1 Nut Milk Bag<br/><br/></li>
+            
+        </ul>
+        <h7 style="font-weight:bold;">MEASURING CUPS & SPOONS</h7>
+       <p>While recreating recipes from our Food Book, make sure you use the exact amount of the ingredients mentioned so that you get the perfect taste of the recipes.<br/></p>
+         <h7 style="font-weight:bold;">JULIENNE PEELER</h7>
+         <p>A julienne peeler is a type of vegetable peeler with a jagged edge that allows you to create thin strips of vegetables for salads. Try it with zucchini, carrots, radish, cucumbers, beets, apples and more. Using this tool saves a lot of time and prevents fatigue while cutting vegetables for salads.<br/></p>
+          <h7 style="font-weight:bold;">NUT MILK BAG</h7>
+        <p>A nut milk bag is a specially shaped fabric bag, that you strain your blended almond or coconut milk through, to remove any pulp that remains. A nut milk bag will help you achieve a smoother consistency of your coconut or almond milk.<br/></p>
+       <hr/>
+       
+      </div>
+    </div>
+  </div>
+
+   <h4 style="text-align:center;">You may also like</h4>
+
+  <div class="books">
+           
+            <a href="sproutKit.html" class="single-book-img">
+               <img src="https://store.satvicmovement.org/cdn/shop/files/Untitled-1-01.jpg?v=1740040477&width=990" class="book-img" />
+               <div class="content">
+               <p>Sprout Kit</p>
+               <p>₹400.00 <span style="text-decoration:line-through;">₹600.00</span></p>
+               </div>
+            </a>
+
+            <a href="nutMilk.html" class="single-book-img">
+               <img src="https://store.satvicmovement.org/cdn/shop/files/Untitled-7-01.jpg?v=1740047325&width=990" class="book-img" />
+               <div class="content">
+               <p>Nut Milk Bag | Pack of 2 | Cotton</p>
+               <p>₹250.00 <span style="text-decoration:line-through;">₹500.00</span></p>
+               </div>
+            </a>
+
+              <a href="combo4.html" class="single-book-img">
+               <img src="https://store.satvicmovement.org/cdn/shop/files/1Combo-pack-of-4.jpg?v=1745557806&width=990" class="book-img" />
+               <div class="content">
+               <p>Combo Pack of 4 Satvic Food Books | <br/>English</p>
+               <p>₹2,600.00<span style="text-decoration:line-through;"> Sale price₹4,000.00</span></p>
+               </div>
+            </a>
+
+            <a href="starterKit.html" class="single-book-img">
+               <img src="https://store.satvicmovement.org/cdn/shop/files/SATVICSKit-01.jpg?v=1700717113&width=990" class="book-img" />
+               <div class="content">
+               <p>Satvic Starter Kit</p>
+               <p>₹3,200.00 <span style="text-decoration:line-through;">₹5,000.00</span></p>
+               </div>
+            </a>
+
+
+         </div>
+
+         <footer class="satvic-footer">
+        <div class="footer-content">
+
+
+            <div class="footer-left">
+                <img class="footer-logo" src="https://webnew.satvicmovement.org/logo/satvic-logo.svg" alt="Satvic Logo">
+                <div class="social-icons">
+                    <a href="https://www.youtube.com/satvicmovement" targent="_blank"><img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube"></a>
+                    <a href="https://www.instagram.com/satvicmovement" targent="_blank"><img src="https://cdn-icons-png.flaticon.com/512/1384/1384063.png" alt="Instagram"></a>
+                    <a href="https://www.facebook.com/satvicmovement" targent="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook"></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <div>
+                    <ul>
+                        <li><a href="aboutUs.html">About Us</a></li>
+                        <li><a href="workshops.html">Workshops</a></li>
+                        <li><a href="books.html">Books</a></li>
+                        <li><a href="index.html">Satvic Yoga</a></li>
+                        <li><a href="satvicYouth.html">Satvic Youth</a></li>
+                        <li><a href="meetTheTeam.html">Meet The Team</a></li>
+                       <li><a href="blogs.html">Blogs</a></li>
+                        <li><a href="contactUs.html">Contact Us</a></li>
+                        <li><a href="privacyPolicy.html">Privacy Policy</a></li>
+                        <li><a href="termsOfService.html">Terms of Service</a></li>
+                        <li><a href="refundPolicy.html">Refund Policy</a></li>
+                         <li><a href="shippingPolicy.html">Shipping Policy</a></li>
+                    </ul>
+                </div>
+
+                <div>
+
+            
+
+            <div class="footer-newsletter">
+               <img src="https://store.satvicmovement.org/cdn/shop/files/MobileHeroLogo.png?v=1739006884&width=250"/>
+               <p>Connect with us and be part of something impactful.<br/><br/></p>
+               <div>
+                Satvic Movement Pvt. Ltd.<br/>
+               CIN-U92490WB2023PTC259946<br/>
+               GSTIN- 29ABKCS2176F1Z1<br/>
+               Registered Address-15 C, HEMANTA BASU SARANI, Kolkata, Kolkata, WestBengal, India, 700001
+               </div>
+            </div>
+
+        </div>
+
+        
+    </footer>
+
+
+
+
+<script src="indianFoodBook.js"></script>
+
+</body>
+
+</html>
