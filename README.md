@@ -5,7 +5,7 @@ This project focuses on creating clean layouts, responsive design, and maintaini
 
 ---
 
-## 🚀 Technologies Used
+## Technologies Used
 
 * **HTML5** – Structuring the web pages
 * **CSS3** – Styling, layouts, and responsiveness
@@ -13,7 +13,7 @@ This project focuses on creating clean layouts, responsive design, and maintaini
 
 ---
 
-## ✨ Features
+## Features
 
 * Clean and modern UI inspired by Satvic Yoga
 * Responsive design for desktop screens
@@ -23,7 +23,7 @@ This project focuses on creating clean layouts, responsive design, and maintaini
 
 ---
 
-## 🛠️ Development Process
+## Development Process
 
 1. Analyzed the original Satvic Yoga website layout
 2. Planned the structure and UI sections
@@ -34,7 +34,7 @@ This project focuses on creating clean layouts, responsive design, and maintaini
 
 ---
 
-## 📚 What I Learned
+## What I Learned
 
 * Translating real-world designs into frontend code
 * Creating responsive layouts using CSS
@@ -44,7 +44,7 @@ This project focuses on creating clean layouts, responsive design, and maintaini
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
 * Add animations and smooth transitions
 * Improve accessibility using semantic HTML and ARIA labels
@@ -54,11 +54,19 @@ This project focuses on creating clean layouts, responsive design, and maintaini
 
 ---
 
-## 📌 Purpose of the Project
+## Purpose of the Project
 
 This project was created as a frontend practice project to improve UI development skills and gain hands-on experience by recreating a real-world website design.
 
 ---
+
+## Author
+Greeshma Frontend Developer | CSE (AI & ML) Student GitHub: https://github.com/greeshmagali
+
+
+
+
+
 
 ## Author
 Greeshma web Developer | CSE (AI & ML) Student GitHub: https://github.com/greeshmagali
